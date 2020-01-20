@@ -1,23 +1,41 @@
 ---
 layout: post
-title:  "Integrating razorpay into your webapp"
+title:  "click"
 categories: python
 ---
 introduce
 
 ```javascript
-const Razorpay = require('razorpay');
 
-let rzp = Razorpay({
-	key_id: 'KEY_ID',
-	secret: 'name'
-});
+# 自然语言处理
 
-// capture request
-rzp.capture(payment_id, cost)
-	.then(function (data) {
-		return 2;
-	})
+ ## 表示学习
+
+  ### word2vec
+
+  ### bert
+
+ ## 序列标注
+
+  ### ner
+
+      crf
+
+      bilstm-crf
+
+      bert-crf
+
+ ## 文本分类
+
+  ### 无监督
+
+  ### 有监督
+
+ ## seq2seq
+
+  ### 机器翻译
+
+  ### 文本摘要
 ```
 
 Check out the [jekyllthemes]
